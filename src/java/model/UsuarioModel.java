@@ -14,7 +14,7 @@ public class UsuarioModel {
     private String nome;
     private String cpf;
     private String email;
-    private String password;
+    private String passwords;
 
     public String getNome() {
         return nome;
@@ -41,11 +41,11 @@ public class UsuarioModel {
     }
 
     public String getPassword() {
-        return password;
+        return passwords;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassword(String passwords) {
+        this.passwords = passwords;
     }
     
     
