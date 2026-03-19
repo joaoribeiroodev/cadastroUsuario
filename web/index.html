@@ -1,15 +1,43 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    <h2>Crie sua Conta</h2>
+    <form action="/enviar-dados" method="POST">
+        
+        <div>
+            <label for="nome"> Nome Completo</label><br>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="cpf">CPF</label><br>
+            <input type="text" id="cpf" name="cpf" required>
+        </div>
+        <br>
+    
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" required>
+        </div>
+        <br>
+        
+
+<div>
+    <button type="submit">Cadastrar</button>
+</div>
+
+</form>
+
+</body>
 </html>

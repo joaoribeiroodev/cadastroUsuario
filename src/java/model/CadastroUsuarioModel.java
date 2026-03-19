@@ -8,7 +8,7 @@ package model;
  *
  * @author 232.004057
  */
-public class UsuarioModel {
+public class CadastroUsuarioModel {
     
     private int id;
     private String nome;
