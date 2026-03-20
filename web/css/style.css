@@ -6,4 +6,84 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 19 de mar. de 2026, 20:03:42
     Author     : 232.004057
 */
+/* 1. Centralização total na tela */
+/* 1. Centralização total na tela */
+/* 1. Reset e Centralização da Página */
+/* Centraliza todo o conteúdo da página */
 
+
+body {
+   font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Cria um "cartão" para o formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+h2 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Ajusta o espaçamento entre os campos */
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #555555;
+    font-size: 14px;
+}
+
+/* Estiliza os inputs com bordas arredondadas */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cccccc;
+    border-radius: 8px; /* Aqui estão as bordas arredondadas */
+    box-sizing: border-box; 
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Efeito ao clicar no input */
+input:focus {
+    border-color: #6366f1; /* Cor de foco combinando com o botão */
+    outline: none;
+}
+
+/* Estiliza o botão com uma cor diferente e cantos arredondados */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6366f1; /* Cor azul-arroxeado moderno */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas no botão também */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #4f46e5; /* Cor um pouco mais escura no hover */
+}
