@@ -14,7 +14,7 @@ public class CadastroUsuarioModel {
     private String nome;
     private String cpf;
     private String email;
-    private String password;
+    private String passwords;
 
     public String getNome() {
         return nome;
@@ -40,12 +40,12 @@ public class CadastroUsuarioModel {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPasswords() {
+        return passwords;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPasswords(String passwords) {
+        this.passwords = passwords;
     }
     
     
